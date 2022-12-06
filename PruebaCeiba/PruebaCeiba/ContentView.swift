@@ -7,18 +7,32 @@
 
 import SwiftUI
 
+@available(iOS 16.0, *)
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView{
+            ZStack {
+                Color("BackGroundColor")
+                VStack{
+                    Text("Barra de busqueda")
+                    
+                    ScrollView
+                    {
+                        CardUser()
+                        
+                        Spacer()
+                    }
+                    
+                }
+            }
+            .edgesIgnoringSafeArea(.bottom)
+            .navigationTitle("Prueba de Ingreso")
+                .navigationBarTitleDisplayMode(.inline)
         }
-        .padding()
     }
 }
 
+@available(iOS 16.0, *)
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

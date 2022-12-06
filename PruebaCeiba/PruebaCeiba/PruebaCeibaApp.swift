@@ -7,11 +7,14 @@
 
 import SwiftUI
 
+@available(iOS 16.0, *)
 @main
 struct PruebaCeibaApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            //UserPublicationCard()
+           // UserDetail()
         }
     }
 }
