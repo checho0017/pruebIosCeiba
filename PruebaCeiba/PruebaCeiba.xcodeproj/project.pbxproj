@@ -15,9 +15,18 @@
 		70435927293EE8FB0030D77C /* CardUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70435926293EE8FB0030D77C /* CardUser.swift */; };
 		70435929293F0B8B0030D77C /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70435928293F0B8B0030D77C /* UserDetail.swift */; };
 		7043592B293F0BD30030D77C /* UserPublicationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7043592A293F0BD30030D77C /* UserPublicationCard.swift */; };
+		70A5E37329403E8700CCF2A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E37229403E8700CCF2A5 /* User.swift */; };
+		70A5E37829403F0500CCF2A5 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E37729403F0500CCF2A5 /* UserViewModel.swift */; };
+		70A5E37D2940427000CCF2A5 /* ApiEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E37C2940427000CCF2A5 /* ApiEndpoints.swift */; };
+		70A5E380294051C600CCF2A5 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E37F294051C600CCF2A5 /* UserApi.swift */; };
+		70A5E3822940535B00CCF2A5 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E3812940535B00CCF2A5 /* ApiService.swift */; };
+		70A5E38529406C9800CCF2A5 /* AppInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E38429406C9800CCF2A5 /* AppInjection.swift */; };
+		859AE5CD5C302C1A97CD4F41 /* Pods_PruebaCeiba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4CC9227A42F237C5E09C917 /* Pods_PruebaCeiba.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40FFFCAF6D0B5176A3A795BE /* Pods-PruebaCeiba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaCeiba.release.xcconfig"; path = "Target Support Files/Pods-PruebaCeiba/Pods-PruebaCeiba.release.xcconfig"; sourceTree = "<group>"; };
+		63FA43FDB3376BD4266BBEE1 /* Pods-PruebaCeiba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaCeiba.debug.xcconfig"; path = "Target Support Files/Pods-PruebaCeiba/Pods-PruebaCeiba.debug.xcconfig"; sourceTree = "<group>"; };
 		70435913293ECE7C0030D77C /* PruebaCeiba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaCeiba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70435916293ECE7C0030D77C /* PruebaCeibaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaCeibaApp.swift; sourceTree = "<group>"; };
 		70435918293ECE7C0030D77C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +36,15 @@
 		70435926293EE8FB0030D77C /* CardUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUser.swift; sourceTree = "<group>"; };
 		70435928293F0B8B0030D77C /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
 		7043592A293F0BD30030D77C /* UserPublicationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPublicationCard.swift; sourceTree = "<group>"; };
+		70A5E37229403E8700CCF2A5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		70A5E37729403F0500CCF2A5 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		70A5E379294041D900CCF2A5 /* confikKey.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = confikKey.xcconfig; sourceTree = "<group>"; };
+		70A5E37A2940421B00CCF2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		70A5E37C2940427000CCF2A5 /* ApiEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoints.swift; sourceTree = "<group>"; };
+		70A5E37F294051C600CCF2A5 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		70A5E3812940535B00CCF2A5 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		70A5E38429406C9800CCF2A5 /* AppInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInjection.swift; sourceTree = "<group>"; };
+		E4CC9227A42F237C5E09C917 /* Pods_PruebaCeiba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PruebaCeiba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859AE5CD5C302C1A97CD4F41 /* Pods_PruebaCeiba.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +64,8 @@
 			children = (
 				70435915293ECE7C0030D77C /* PruebaCeiba */,
 				70435914293ECE7C0030D77C /* Products */,
+				E7BA38E412FFB87EDE8F00AD /* Pods */,
+				ED35F718F9CE98E99BD685F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,14 +80,13 @@
 		70435915293ECE7C0030D77C /* PruebaCeiba */ = {
 			isa = PBXGroup;
 			children = (
-				70435916293ECE7C0030D77C /* PruebaCeibaApp.swift */,
-				70435918293ECE7C0030D77C /* ContentView.swift */,
-				70435924293EE8E70030D77C /* UserList.swift */,
-				70435926293EE8FB0030D77C /* CardUser.swift */,
-				70435928293F0B8B0030D77C /* UserDetail.swift */,
+				70A5E3892940878400CCF2A5 /* Infrastructure */,
+				70A5E3882940870100CCF2A5 /* Data */,
+				70A5E387294086B400CCF2A5 /* Domain */,
+				70A5E3862940868D00CCF2A5 /* Presentation */,
+				70A5E37A2940421B00CCF2A5 /* Info.plist */,
 				7043591A293ECE7D0030D77C /* Assets.xcassets */,
 				7043591C293ECE7D0030D77C /* Preview Content */,
-				7043592A293F0BD30030D77C /* UserPublicationCard.swift */,
 			);
 			path = PruebaCeiba;
 			sourceTree = "<group>";
@@ -79,6 +99,120 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		70A5E37029403E0500CCF2A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E38A29408C8100CCF2A5 /* Cards */,
+				70435918293ECE7C0030D77C /* ContentView.swift */,
+				70435924293EE8E70030D77C /* UserList.swift */,
+				70435928293F0B8B0030D77C /* UserDetail.swift */,
+				70435916293ECE7C0030D77C /* PruebaCeibaApp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70A5E37129403E7300CCF2A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E37229403E8700CCF2A5 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70A5E37629403ED700CCF2A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E37729403F0500CCF2A5 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		70A5E37B2940426000CCF2A5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E3812940535B00CCF2A5 /* ApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		70A5E37E294051B900CCF2A5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E37F294051C600CCF2A5 /* UserApi.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		70A5E38329406C8A00CCF2A5 /* InjetionDependency */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E38429406C9800CCF2A5 /* AppInjection.swift */,
+			);
+			path = InjetionDependency;
+			sourceTree = "<group>";
+		};
+		70A5E3862940868D00CCF2A5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E37129403E7300CCF2A5 /* Model */,
+				70A5E37029403E0500CCF2A5 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		70A5E387294086B400CCF2A5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E38329406C8A00CCF2A5 /* InjetionDependency */,
+				70A5E37E294051B900CCF2A5 /* Entities */,
+				70A5E37629403ED700CCF2A5 /* ViewModel */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		70A5E3882940870100CCF2A5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E37B2940426000CCF2A5 /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		70A5E3892940878400CCF2A5 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E37C2940427000CCF2A5 /* ApiEndpoints.swift */,
+				70A5E379294041D900CCF2A5 /* confikKey.xcconfig */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		70A5E38A29408C8100CCF2A5 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				70435926293EE8FB0030D77C /* CardUser.swift */,
+				7043592A293F0BD30030D77C /* UserPublicationCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		E7BA38E412FFB87EDE8F00AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63FA43FDB3376BD4266BBEE1 /* Pods-PruebaCeiba.debug.xcconfig */,
+				40FFFCAF6D0B5176A3A795BE /* Pods-PruebaCeiba.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED35F718F9CE98E99BD685F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4CC9227A42F237C5E09C917 /* Pods_PruebaCeiba.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70435921293ECE7D0030D77C /* Build configuration list for PBXNativeTarget "PruebaCeiba" */;
 			buildPhases = (
+				C01DA06542C4E04F1CE54B15 /* [CP] Check Pods Manifest.lock */,
 				7043590F293ECE7C0030D77C /* Sources */,
 				70435910293ECE7C0030D77C /* Frameworks */,
 				70435911293ECE7C0030D77C /* Resources */,
+				83E39E89CF16551640EE43F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,17 +280,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		83E39E89CF16551640EE43F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaCeiba/Pods-PruebaCeiba-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaCeiba/Pods-PruebaCeiba-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PruebaCeiba/Pods-PruebaCeiba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01DA06542C4E04F1CE54B15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaCeiba-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7043590F293ECE7C0030D77C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				70435919293ECE7C0030D77C /* ContentView.swift in Sources */,
+				70A5E38529406C9800CCF2A5 /* AppInjection.swift in Sources */,
+				70A5E37829403F0500CCF2A5 /* UserViewModel.swift in Sources */,
 				70435925293EE8E70030D77C /* UserList.swift in Sources */,
+				70A5E37D2940427000CCF2A5 /* ApiEndpoints.swift in Sources */,
 				70435927293EE8FB0030D77C /* CardUser.swift in Sources */,
 				7043592B293F0BD30030D77C /* UserPublicationCard.swift in Sources */,
 				70435929293F0B8B0030D77C /* UserDetail.swift in Sources */,
+				70A5E3822940535B00CCF2A5 /* ApiService.swift in Sources */,
 				70435917293ECE7C0030D77C /* PruebaCeibaApp.swift in Sources */,
+				70A5E37329403E8700CCF2A5 /* User.swift in Sources */,
+				70A5E380294051C600CCF2A5 /* UserApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +347,7 @@
 /* Begin XCBuildConfiguration section */
 		7043591F293ECE7D0030D77C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A5E379294041D900CCF2A5 /* confikKey.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -223,6 +408,7 @@
 		};
 		70435920293ECE7D0030D77C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A5E379294041D900CCF2A5 /* confikKey.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -277,6 +463,7 @@
 		};
 		70435922293ECE7D0030D77C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FA43FDB3376BD4266BBEE1 /* Pods-PruebaCeiba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +473,7 @@
 				DEVELOPMENT_TEAM = AX95CRT22M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PruebaCeiba/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,6 +494,7 @@
 		};
 		70435923293ECE7D0030D77C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FFFCAF6D0B5176A3A795BE /* Pods-PruebaCeiba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +504,7 @@
 				DEVELOPMENT_TEAM = AX95CRT22M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PruebaCeiba/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
