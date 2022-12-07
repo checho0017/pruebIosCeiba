@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct CardUser: View {
+  /*  @State var name : String
+    @State var phone : String
+    @State var email : String*/
+    
+    @State var user : User
+    
     var body: some View {
         VStack(alignment: .leading)
         {
             VStack(alignment: .leading, spacing: 5){
-                Text("Leanne Graham")
+                Text(user.name)
                     .font(.system(size: 20))
                     .bold()
                     .foregroundColor(Color("GreenPrimary"))
@@ -21,14 +27,14 @@ struct CardUser: View {
                 HStack{
                     Image(systemName: "phone.fill")
                         .foregroundColor(Color("GreenPrimary"))
-                    Text("1-770-736-0565675-345345")
+                    Text(user.phone)
                 }
                 
                 HStack
                 {
                     Image(systemName: "envelope.fill")
                         .foregroundColor(Color("GreenPrimary"))
-                    Text(verbatim: "Sergio@gmail.com")
+                    Text(verbatim: user.email)
                     
                 }
             }.padding([.top, .leading], 20)
@@ -36,7 +42,7 @@ struct CardUser: View {
             HStack{
                 Spacer()
                 NavigationLink {
-                    UserDetail()
+                    UserDetail(user: user.self)
                 } label: {
                     Text("VER PUBLICACIONES")
                         .font(.system(size: 14))
@@ -51,7 +57,7 @@ struct CardUser: View {
         .shadow(radius: 2)
     }
 }
-
+/*
 #if DEBUG
 @available(iOS 16.0, *)
 struct CardUser_Previews: PreviewProvider {
@@ -60,4 +66,4 @@ struct CardUser_Previews: PreviewProvider {
     }
 }
 
-#endif
+#endif*/

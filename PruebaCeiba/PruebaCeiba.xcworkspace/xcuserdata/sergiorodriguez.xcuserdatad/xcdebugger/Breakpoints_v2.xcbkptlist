@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4E22A3AC-A074-4ADD-99C0-0437DB735755"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2D75288-92E9-4831-ACFA-165DB6858B32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PruebaCeiba/Presentation/View/UserDetail.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B2D75288-92E9-4831-ACFA-165DB6858B32 - 1879e4a678fd9732"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;PruebaCeiba.UserPublicationModel&gt;, Swift.Int, PruebaCeiba.UserPublicationCard&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.ForEach&lt;Swift.Array&lt;PruebaCeiba.UserPublicationModel&gt;, Swift.Int, PruebaCeiba.UserPublicationCard&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Color, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.ForEach&lt;Swift.Array&lt;PruebaCeiba.UserPublicationModel&gt;, Swift.Int, PruebaCeiba.UserPublicationCard&gt;&gt;)&gt;&gt;)&gt; in PruebaCeiba.UserDetail.body.getter : some"
+                  moduleName = "PruebaCeiba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergiorodriguez/Documents/PruebaCeiba/pruebIosCeiba/PruebaCeiba/PruebaCeiba/Presentation/View/UserDetail.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "B2D75288-92E9-4831-ACFA-165DB6858B32 - fb5b556ae6b518ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PruebaCeiba.UserPublicationModel) -&gt; PruebaCeiba.UserPublicationCard in closure #2 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;PruebaCeiba.UserPublicationModel&gt;, Swift.Int, PruebaCeiba.UserPublicationCard&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.ForEach&lt;Swift.Array&lt;PruebaCeiba.UserPublicationModel&gt;, Swift.Int, PruebaCeiba.UserPublicationCard&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Color, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.ForEach&lt;Swift.Array&lt;PruebaCeiba.UserPublicationModel&gt;, Swift.Int, PruebaCeiba.UserPublicationCard&gt;&gt;)&gt;&gt;)&gt; in PruebaCeiba.UserDetail.body.getter : some"
+                  moduleName = "PruebaCeiba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergiorodriguez/Documents/PruebaCeiba/pruebIosCeiba/PruebaCeiba/PruebaCeiba/Presentation/View/UserDetail.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

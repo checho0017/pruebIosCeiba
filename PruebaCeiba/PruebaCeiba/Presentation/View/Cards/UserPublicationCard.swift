@@ -8,24 +8,27 @@
 import SwiftUI
 
 struct UserPublicationCard: View {
+    
+    @State var userPublication : UserPublicationModel
+    
     var body: some View {
         VStack(alignment: .leading,spacing: 5)
         {
             HStack
             {
-                Text("non est facere")
+                Text(userPublication.title)
                     .bold()
                     .font(.system(size: 22))
                     .foregroundColor(Color("GreenPrimary"))
                     
                 Spacer()
-                Text("Id: 41")
+                Text("Id: \(userPublication.id)")
             }.padding([.leading,.trailing], 20)
             
-            Text("molestias id nostrum\nexcepturi molestiae dolore omnis repellendus quaerat saepe\ncons")
+            Text(userPublication.body)
                 .multilineTextAlignment(.leading)
                 .padding(.leading,20)
-            Text("UserId: 5")
+            Text("UserId: \(userPublication.userID)")
                 .padding(.leading,20).padding(.top,10)
         }.frame(width: UIScreen.main.bounds.width * 0.92, height: UIScreen.main.bounds.height * 0.2)
             .background(Color.white)
@@ -34,8 +37,9 @@ struct UserPublicationCard: View {
     }
 }
 
+/*
 struct UserPublicationCard_Previews: PreviewProvider {
     static var previews: some View {
         UserPublicationCard()
     }
-}
+}*/

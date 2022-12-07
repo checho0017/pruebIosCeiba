@@ -30,7 +30,7 @@ struct CustomError: Error
 protocol UsersApiProtocol
 {
     func getUsers() -> AnyPublisher<DataResponse<[UserApi], ApiError>, Never>
-    //func fetchUserPublication(id: String) -> AnyPublisher<>
+    func getUsersPosts(id: Int) -> AnyPublisher<DataResponse<[UserPublication], ApiError>, Never>
 }
 
 class ApiClient
@@ -54,6 +54,17 @@ extension ApiClient: UsersApiProtocol
                 
         return AF.request(url, method:.get)
             .proccesResponse(type: [UserApi].self)
+    }
+    
+    func getUsersPosts(id: Int) -> AnyPublisher<Alamofire.DataResponse<[UserPublication], ApiError>, Never> {
+        guard let url = URL(string: "\(urlBase)/posts?userId=\(String(id))")
+                else
+        {
+            return emptyPublisher(error: CustomError(code: 555, message: "Url no valida"))
+        }
+                
+        return AF.request(url, method:.get)
+            .proccesResponse(type: [UserPublication].self)
     }
     
     

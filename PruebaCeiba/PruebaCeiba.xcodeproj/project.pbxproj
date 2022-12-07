@@ -21,6 +21,9 @@
 		70A5E380294051C600CCF2A5 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E37F294051C600CCF2A5 /* UserApi.swift */; };
 		70A5E3822940535B00CCF2A5 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E3812940535B00CCF2A5 /* ApiService.swift */; };
 		70A5E38529406C9800CCF2A5 /* AppInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E38429406C9800CCF2A5 /* AppInjection.swift */; };
+		70A5E38C2940969200CCF2A5 /* UserPublication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E38B2940969200CCF2A5 /* UserPublication.swift */; };
+		70A5E38E294096E100CCF2A5 /* UserPublicationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E38D294096E100CCF2A5 /* UserPublicationModel.swift */; };
+		70A5E3912941490100CCF2A5 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5E3902941490100CCF2A5 /* ProgressIndicator.swift */; };
 		859AE5CD5C302C1A97CD4F41 /* Pods_PruebaCeiba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4CC9227A42F237C5E09C917 /* Pods_PruebaCeiba.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +47,9 @@
 		70A5E37F294051C600CCF2A5 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
 		70A5E3812940535B00CCF2A5 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		70A5E38429406C9800CCF2A5 /* AppInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInjection.swift; sourceTree = "<group>"; };
+		70A5E38B2940969200CCF2A5 /* UserPublication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPublication.swift; sourceTree = "<group>"; };
+		70A5E38D294096E100CCF2A5 /* UserPublicationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPublicationModel.swift; sourceTree = "<group>"; };
+		70A5E3902941490100CCF2A5 /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 		E4CC9227A42F237C5E09C917 /* Pods_PruebaCeiba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PruebaCeiba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,6 +108,7 @@
 		70A5E37029403E0500CCF2A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				70A5E38F294148DC00CCF2A5 /* ProgressIndicator */,
 				70A5E38A29408C8100CCF2A5 /* Cards */,
 				70435918293ECE7C0030D77C /* ContentView.swift */,
 				70435924293EE8E70030D77C /* UserList.swift */,
@@ -115,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				70A5E37229403E8700CCF2A5 /* User.swift */,
+				70A5E38D294096E100CCF2A5 /* UserPublicationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				70A5E37F294051C600CCF2A5 /* UserApi.swift */,
+				70A5E38B2940969200CCF2A5 /* UserPublication.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -194,6 +203,14 @@
 				7043592A293F0BD30030D77C /* UserPublicationCard.swift */,
 			);
 			path = Cards;
+			sourceTree = "<group>";
+		};
+		70A5E38F294148DC00CCF2A5 /* ProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				70A5E3902941490100CCF2A5 /* ProgressIndicator.swift */,
+			);
+			path = ProgressIndicator;
 			sourceTree = "<group>";
 		};
 		E7BA38E412FFB87EDE8F00AD /* Pods */ = {
@@ -330,14 +347,17 @@
 				70435919293ECE7C0030D77C /* ContentView.swift in Sources */,
 				70A5E38529406C9800CCF2A5 /* AppInjection.swift in Sources */,
 				70A5E37829403F0500CCF2A5 /* UserViewModel.swift in Sources */,
+				70A5E38C2940969200CCF2A5 /* UserPublication.swift in Sources */,
 				70435925293EE8E70030D77C /* UserList.swift in Sources */,
 				70A5E37D2940427000CCF2A5 /* ApiEndpoints.swift in Sources */,
 				70435927293EE8FB0030D77C /* CardUser.swift in Sources */,
+				70A5E38E294096E100CCF2A5 /* UserPublicationModel.swift in Sources */,
 				7043592B293F0BD30030D77C /* UserPublicationCard.swift in Sources */,
 				70435929293F0B8B0030D77C /* UserDetail.swift in Sources */,
 				70A5E3822940535B00CCF2A5 /* ApiService.swift in Sources */,
 				70435917293ECE7C0030D77C /* PruebaCeibaApp.swift in Sources */,
 				70A5E37329403E8700CCF2A5 /* User.swift in Sources */,
+				70A5E3912941490100CCF2A5 /* ProgressIndicator.swift in Sources */,
 				70A5E380294051C600CCF2A5 /* UserApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

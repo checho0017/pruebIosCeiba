@@ -19,26 +19,21 @@ struct ContentView: View {
                 Color("BackGroundColor")
                 VStack{
                     Text("Barra de busqueda")
-                    
-                    Text("userViewModel.urlbae")
-                    
-                    ScrollView
+                     
+                    ScrollView(showsIndicators:false)
                     {
                         ForEach(userViewModel.users){ item in
-                            Text(item.username)
+                            //CardUser(name: item.name, phone: item.phone, email: item.email)
+                            CardUser(user: item)
                         }
-                      
-                        
-                        Spacer()
-                    }
-                    
+                    }       
                 }
             }
             .edgesIgnoringSafeArea(.bottom)
             .navigationTitle("Prueba de Ingreso")
                 .navigationBarTitleDisplayMode(.inline)
                 .onAppear{
-                    userViewModel.loadUsers()
+                    userViewModel.getUsers()
                     
                 }
         }
